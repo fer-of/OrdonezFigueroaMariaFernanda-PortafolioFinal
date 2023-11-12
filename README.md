@@ -10,23 +10,27 @@ También incluye imágenes alternativas en la carpeta `imagenes` en caso de que 
 
 Primera parte de la página web:
 
-![Primera parte de la página web](imagenes/screenshot1.png)
+![imagen](https://github.com/fer-of/OrdonezFigueroaMariaFernanda-PortafolioFinal/assets/111704567/89e80c85-3570-4b5d-b0e7-1aaf0cc31d85)
+![imagen](https://github.com/fer-of/OrdonezFigueroaMariaFernanda-PortafolioFinal/assets/111704567/b18385dc-86dc-4d7b-a2af-9da8a3490ff3)
+
 
 Experiencia:
 
-![Experiencia](imagenes/screenshot2.png)
+![imagen](https://github.com/fer-of/OrdonezFigueroaMariaFernanda-PortafolioFinal/assets/111704567/d1b3ca8d-b9c9-41cd-97ea-f836cf365614)
+
 
 Proyectos:
 
-![Proyectos](imagenes/screenshot3.png)
+![imagen](https://github.com/fer-of/OrdonezFigueroaMariaFernanda-PortafolioFinal/assets/111704567/85ff7896-030a-4240-b241-00068bb2df9c)
 
-Testimonios:
 
-![Testimonios](imagenes/screenshot4.png)
+Cursos y voluntariados:
+![imagen](https://github.com/fer-of/OrdonezFigueroaMariaFernanda-PortafolioFinal/assets/111704567/b26c546a-2856-4831-b832-5e7f656c900f)
 
 Contacto:
+![imagen](https://github.com/fer-of/OrdonezFigueroaMariaFernanda-PortafolioFinal/assets/111704567/84869456-12e5-436f-a9f1-711c1a1e7d2c)
+![imagen](https://github.com/fer-of/OrdonezFigueroaMariaFernanda-PortafolioFinal/assets/111704567/7f50561e-7fe8-4418-8204-19cb51007974)
 
-![Contacto](imagenes/screenshot5.png)
 
 ## Tecnologías
 
