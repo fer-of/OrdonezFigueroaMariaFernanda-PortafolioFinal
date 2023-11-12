@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+
+
+    <!-- Metadatos -->
+    <meta charset="utf-8">
+    <meta name="author" content="Fer Ordoñez">
+    <meta name="description" content="Portafolio de desarrollo web de Fer Ordoñez">
+    <meta name="keywords" content="HTML, CSS, JavaScript, React">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- Titulo -->
+    <title>Fer Ordoñez | Portafolio de presentacion</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="imagenes/logo.png">
+    
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    
+    <!-- Iconos de Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    
+    <!-- CSS -->
+    <link href="style.css" rel="stylesheet">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Agbalumo&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Montserrat:wght@300&family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Barra de navegacion -->
+    <nav class="navbar navbar-expand-md navbar-light">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-toggler">
+          <a class="navbar-brand" href="#">
+            <img class="logo rounded-circle" src="imagenes/logo.png" width="80" alt="Logo de la página web">
+          </a>
+          <ul class="navbar-nav d-flex justify-content-center align-items-center">
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="#sobre-mi">Sobre mí |</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#proyectos">Proyectos |</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonios">Testimonios |</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">Contacto </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Seccion Hero -->
+    <section class="hero align-items-stretch">
+      <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+        <img class="hero-imagen-desarrollador rounded-circle" src="imagenes/IMG_20221224_200157_299.jpg" alt="Foto de Jane Doe">
+        
+        <h1>Hola, soy Fer Ordoñez</h1>
+        
+        <!--<h2>Desarrollo sitios web y escribo artículos sobre programación.</h2>-->
+        <!--Animación con JavaScript-->
+        <h2 class="text-primary mb-4" id="typewriter"></h2>
+      
+      </div>
+      <div class="hero-inferior">
+        <img class="hero-inferior-imagen img-fluid" src="imagenes/bigthings.jpg" alt="Frase">
+      </div>
+    </section>
+
+    <!-- Sobre mi -->
+    <section id="sobre-mi" class="sobre-mi seccion-oscura">
+      <div class="contenedor">
+        <h2 class="seccion-titulo">Conoce a Fernanda Ordoñez</h2>
+        <p class="seccion-texto">Estudiante en la Licenciatura de Ingeniería en Computación por la Universidad Autónoma de
+           México, orientada a la creación y desarrollo de paginas Web con el uso de herramientas como HTML y CSS. Con 
+           experiencia en el uso de lenguajes de programación como Python, C, C++ para desarrollo de aplicaciones </p>
+    </section>
+
+    <!-- Experiencia -->
+    <section class="experiencia seccion-clara">
+      <div class="container text-center">
+        <div class="row">
+          <!-- Desarrollo Web -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Development</p>
+            <p>Tengo experiencia desarrolando paginas web y aplicaciones con: </p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-danger">HTML</span>
+              <span class="badge text-bg-danger">CSS</span>
+              <span class="badge text-bg-danger">PYTHON</span>
+              <span class="badge text-bg-danger">C</span>
+            </div>
+          </div>
+          <!-- Estudios -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-book"></i>
+            <p class="experiencia-titulo">Estudios</p>
+            <p>Egresada del Colegio de Ciencias y Humanidades Plantel Oriente
+                Actualmente estudio en la Facultad de Ingenieria en la Universidad Nacional Autonoma de México,
+              la Licenciatura en Ingenieria en computacion, asi mismo estudio ingles en la Facultad de Contaduria 
+              y Administración </p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-danger">FI-UNAM</span>
+              <span class="badge text-bg-danger">FCA-UNAM</span>
+            </div>
+          </div>
+          <!-- CPCFI -->
+          <div class="columna col-12 col-md-4">
+            <!-- <i class="bi bi-backpack4"></i> -->
+            <i class="bi bi-balloon-fill"></i>
+            <p class="experiencia-titulo">CPCFI</p>
+            <p>Actualmente soy una de las Comunity Manageres del Club de Programacion Competitiva de la Facultad de Ingenieria,
+              ademas de participar en el Hackaton anual IEEExtream. </p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-danger">ig:@cpcfi.unam</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Proyectos -->
+    <section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
+      <h2 class="seccion-titulo texto-negro">Mis proyectos recientes</h2>
+      <h3 class="seccion-descripcion">Estos son algunos proyectos que he creado recientemente...</h3>
+      <!-- Galeria de Proyectos -->
+      <div class="container text-center proyectos-contenedor">
+        <div class="row">
+          <!-- Proyecto 1 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/Post de Instagram tendencias de moda elegante grises.png" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Proyecto 1</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/fer-of/nebulosas_web" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://nebulosas-my-first-web.netlify.app/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 2 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/Post de Instagram tendencias de moda elegante grises(1).png" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Proyecto 2</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/fer-of/google-clon" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://google-clon-or-fer.netlify.app/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 3 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/Post de Instagram tendencias de moda elegante grises(2).png" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Proyecto 3</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/fer-of/OrdonezFigueroaMariaFernanda-PortafolioFinal" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a href="https://github.com/fer-of" target="_blank" rel="noopener noreferrer">
+        <button type="button" class="btn btn-info">
+          Mi github
+          <i class="bi bi-arrow-right-circle-fill"></i>
+        </button>
+      </a>
+    </section>
+
+    <!-- Testimonios -->
+    <section id="testimonios" class="testimonios seccion-clara">
+      <h2 class="seccion-titulo">Cursos y Voluntariados</h2>
+      <h3 class="seccion-descripcion">Estos son algunas actividades que me apasionan.</h3>
+      
+      <!-- Carrusel -->
+      <div id="testimonios-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/tecnociencia.jpg" alt="Foto de Gino">
+              <p class="testimonio-texto">Participe como Divulgadora Cientifica, tallerista, conferencista, moderadora, embajadora de una revista digital.</p>
+              <div class="testimonio-info">
+                <p class="cliente">Tecnociencia</p>
+                <p class="cargo">Organizacion de Apoyo Estudiantil</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/ats.jpg" alt="Foto de Nora">
+              <p class="testimonio-texto">Fui Creadora de Contenido para las redes sociales y moderadora de conferencias.</p>
+              <div class="testimonio-info">
+                <p class="cliente">Aprende de tu sexualidad</p>
+                <p class="cargo">Mujeres Lideres en STEAM</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/tecnolochicas.png" alt="Foto de Leonardo">
+              <p class="testimonio-texto">Curso orientado a la elaboración de paginas web</p>
+              <div class="testimonio-info">
+                <p class="cliente">Tecnolochicas</p>
+                <p class="cargo">Desarrollo de paginas Web</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="contacto seccion-oscura">
+      <div class="container">
+        <div class="container text-center rectangulo d-flex justify-content-evenly">
+          <div class="row">
+            <div class="col-12 col-md-4 seccion-titulo">
+              ¡Hablemos!
+            </div>
+            <div class="col-12 col-md-4 descripcion">
+              Contáctame si quieres saber de astronomia, desarrollo de paginas web o aplicaciones.
+            </div>
+            <div class="col-12 col-md-4">
+              <a href="ferordonezfigueroa@gmail.com">
+                <button type="button">  
+                  Contacto
+                  <i class="bi bi-envelope-check-fill"></i>
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Pie de pagina (footer) -->
+    <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center"> 
+      <img class="footer-logo rounded-circle" src="imagenes/logo.png" width="80" alt="Logo del portafolio">
+      <p class="footer-texto text-center">Recueda:<br> "El conocimiento no tiene ningún poder <br>si no puede ser compartido"<br> (José A. Pallavicini)</p>
+      <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+        
+        <a href="https://github.com/fer-of" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-github"></i>
+        </a>
+        <a href="www.linkedin.com/in/fernanda-ord-fig" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-linkedin"></i>
+        </a>
+        <a href="https://www.instagram.com/or.fer/" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-instagram"></i>
+        </a>
+        <a href="ferordonezfigueroa07@gmail.com" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-envelope"></i>
+        </a>
+      </div>
+      <div class="derechos-de-autor">Creado por Fer Ordoñez(2023) &#169;</div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+        <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+        <script src="main.js"></script>
+
+  </body>
+</html>
