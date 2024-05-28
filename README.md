@@ -1,4 +1,4 @@
-###Portafolio Adaptativo con Bootstrap 5
+### Portafolio Adaptativo con Bootstrap 5
 
 Este proyecto, desarrollado para el bootcamp Tecnolochicas PRO, representa una página web adaptable a diversos dispositivos, una característica conocida como "responsive" en el ámbito anglosajón.
 
